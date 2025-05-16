@@ -2,7 +2,7 @@ CP de java feito por:
 Eduardo barriviera - RM 555309
 Thiago Lima Feitas - RM 556795
 
-Usamos jpa e banco H2 para armazenar os dados 
+Criamos uma aplicação java com spring-boot, além disso usamos jpa e banco H2 para armazenar os dados 
 
 Rotas:
 
