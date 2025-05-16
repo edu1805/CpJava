@@ -1,26 +1,37 @@
-CP de java feito por:
-Eduardo barriviera - RM 555309
-Thiago Lima Feitas - RM 556795
+# **CP de Java — Spring Boot API**
 
-Criamos uma aplicação java com spring-boot, além disso usamos jpa e banco H2 para armazenar os dados 
+## Autores:
+- Eduardo Barriviera — RM 555309
+- Thiago Lima Freitas — RM 556795
 
-Rotas:
+## Descrição
+Este projeto é uma aplicação Java desenvolvida com Spring Boot, utilizando JPA para persistência de dados e o banco de dados em memória H2.
 
-- UsuariorControler:
-- | Método   | URL                  | Ação                     |
-| -------- | -------------------- | ------------------------ |
-| `POST`   | `/api/usuarios`      | Criar usuário            |
-| `GET`    | `/api/usuarios/{id}` | Buscar por ID            |
-| `GET`    | `/api/usuarios`      | Listar todos os usuários |
-| `PUT`    | `/api/usuarios/{id}` | Atualizar usuário        |
-| `DELETE` | `/api/usuarios/{id}` | Deletar usuário          |
+## Tecnologias utilizadas
 
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+  
+## **Endpoints da API**
 
-- MotoControler:
-- | Método   | Endpoint          | Ação                  |
-| -------- | ----------------- | --------------------- |
-| `POST`   | `/api/motos`      | Criar nova moto       |
-| `GET`    | `/api/motos`      | Listar todas as motos |
-| `GET`    | `/api/motos/{id}` | Buscar moto por ID    |
-| `PUT`    | `/api/motos/{id}` | Atualizar moto        |
-| `DELETE` | `/api/motos/{id}` | Deletar moto          |
+### - UsuárioController
+  
+| Método | Endpoint             | Ação                     |
+| ------ | -------------------- | ------------------------ |
+| POST   | `/api/usuarios`      | Criar novo usuário       |
+| GET    | `/api/usuarios/{id}` | Buscar usuário por ID    |
+| GET    | `/api/usuarios`      | Listar todos os usuários |
+| PUT    | `/api/usuarios/{id}` | Atualizar usuário        |
+| DELETE | `/api/usuarios/{id}` | Deletar usuário          |
+
+### - MotoController
+  
+| Método | Endpoint          | Ação                  |
+| ------ | ----------------- | --------------------- |
+| POST   | `/api/motos`      | Criar nova moto       |
+| GET    | `/api/motos`      | Listar todas as motos |
+| GET    | `/api/motos/{id}` | Buscar moto por ID    |
+| PUT    | `/api/motos/{id}` | Atualizar moto        |
+| DELETE | `/api/motos/{id}` | Deletar moto          |
